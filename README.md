@@ -33,7 +33,7 @@ Thus, when choosing an algorithm for a problem, we will pay special attention to
 Thus, the formalized task at the first stage of the primary model selection is as follows:
 
 **Model** with k features:
-$$ a(x) = w_0 + w_1x^1 + \dots w_kx^k = \langle w, x \rangle,\\
+$$a(x) = w_0 + w_1x^1 + \dots w_kx^k = \langle w, x \rangle,\\
 x = (1, x^1, \dots, x^k)$$
 
 At the same time, we understand that life/death assessment is a binary category. Thus, to solve the problem, we will use **logistic regression**, which is a special case of generalized linear regression
