@@ -33,20 +33,16 @@ Thus, when choosing an algorithm for a problem, we will pay special attention to
 Thus, the formalized task at the first stage of the primary model selection is as follows:
 
 **Model** with k features:
-$$
-a(x) = w_0 + w_1x^1 + \dots w_kx^k = \langle w, x \rangle,\\
-x = (1, x^1, \dots, x^k)
-$$
+$$ a(x) = w_0 + w_1x^1 + \dots w_kx^k = \langle w, x \rangle,\\
+x = (1, x^1, \dots, x^k)$$
 
 At the same time, we understand that life/death assessment is a binary category. Thus, to solve the problem, we will use **logistic regression**, which is a special case of generalized linear regression
 
 We will teach a linear model to correctly predict some object associated with a probability, but with a range of values $$(\infty; -\infty),$$ 
 
-and convert the model's responses to a probability. Such an object is **logit** or **log odds** — the logarithm of the ratio of the probability of a positive event to a negative one $$
-\log(\frac{p}{1-p}).
-$$
+and convert the model's responses to a probability. Such an object is **logit** or **log odds** — the logarithm of the ratio of the probability of a positive event to a negative one $$\log(\frac{p}{1-p}).$$
 
-For further analysis, we will use the sigmoid $$p = \sigma(\langle w, x \rangle) $$
+For further analysis, we will use the sigmoid $$p = \sigma(\langle w, x \rangle)$$
 
 The assumptions of logistic regression are almost identical to those for linear regression:
 
