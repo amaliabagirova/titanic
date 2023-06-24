@@ -52,4 +52,4 @@ The assumptions of logistic regression are almost identical to those for linear 
 5. no outliers.
 
 ## Results
-My score is - 0.77272
+My accuracy score is - 0.77272
