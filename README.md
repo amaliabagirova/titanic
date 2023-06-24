@@ -50,3 +50,6 @@ The assumptions of logistic regression are almost identical to those for linear 
 3. lack of multicollinearity;
 4. sufficient sample size (at least thirty observations);
 5. no outliers.
+
+## Results
+My score is - 0.77272
